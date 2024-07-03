@@ -1,0 +1,52 @@
+name: working_practices
+description: "with bloc"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+  cupertino_icons: ^1.0.6
+  flutter_background_service: ^5.0.5
+  flutter_local_notifications: ^17.1.2
+  connectivity_plus: ^6.0.3
+  json_annotation: ^4.9.0
+  shared_preferences: ^2.2.3
+  http: ^1.2.1
+  flutter_bloc: ^8.1.5
+  freezed_annotation: ^2.4.1
+  freezed: ^2.5.2
+  equatable: ^2.0.5
+  formz: ^0.7.0
+  go_router: ^14.1.2
+  dartz: ^0.10.1
+  hive_flutter: ^1.1.0
+  hive: ^2.2.3
+  path_provider: ^2.1.3
+  uuid: ^4.4.0
+  flutter_secure_storage: ^4.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+  json_serializable: ^6.8.0
+  build_runner: ^2.4.9
+  hive_generator: ^2.0.0
+  freezed: ^2.3.2
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - config.json
