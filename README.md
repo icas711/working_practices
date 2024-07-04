@@ -1,4 +1,4 @@
 # working_practices
 Авторизация:
-MVVM
+MWWM
 
